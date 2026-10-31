@@ -28,7 +28,7 @@ export default function CreateSandboxForm({ onCreated }: { onCreated: () => void
       <div className="sb-panelhead">Create a sandbox <span className="sb-note">UPLOAD &amp; LAUNCH</span></div>
       <div className="sb-form">
         <label>Odoo version
-          <select name="odoo_version" defaultValue="19.0">
+          <select name="odoo_version" defaultValue="20.0">
             <option>20.0</option>
             <option>19.0</option>
             <option>18.0</option>
